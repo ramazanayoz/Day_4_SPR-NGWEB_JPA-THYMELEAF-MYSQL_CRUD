@@ -1,0 +1,23 @@
+https://www.youtube.com/watch?v=QloyS2dt9T4&list=PLbbZyWUjq_ad5E47JhkQQCE-bpMRGDe-b&index=13&t=0s
+
+tut4springdb isimli database oluştur
+product isimli table oluştur
+id  INT primarykey,  notnull,  autoincrement
+name varchar
+brand	varchar
+medein	varchar
+price	int
+pruductcol	varchar
+
+eclipse  --> file --> new --> spring starter project
+depencies spring web, jpa, thymeleaf- mysql
+
+
+son adım
+//package the application jar haline getirip derleme ve çalıştırma
+tut4 paketin üstüne sağ tık --> run as -->  3 maven build --> goals: package --> run 
+//target klsörüne jar dosyası oluşturulur çalıştırmak için
+target dizininde 
+cmd 'de  prompt @$f  (enter bas)
+java -jar ismii.jar enter ve çalışır
+artık http://127.0.0.1:8080 adresine gidebiliriz
